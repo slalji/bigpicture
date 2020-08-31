@@ -1,0 +1,268 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 10-Sep-2014, 11:36:36 AM
+    Author     : sallalji
+*/
+
+a{
+    color:#808080;
+}
+a:hover{
+    color:#808080;
+}
+button a:active{
+    color:#fff;
+}
+.bigpicture ul li a {
+  color: #88b583;
+}
+.bigpicture .main {
+  
+  overflow: hidden;  
+   
+}
+
+.bigpicture .image {
+position: relative;
+display: block; 
+}
+.content-box-large li{
+    /* left: 30px; */
+    margin: 5px;
+    /* padding-left: 0px; */
+    list-style: square;
+}
+.content-box{
+    background-color:#eff0f3 ;
+}
+button.printbtn,.button:hover, .button:active{
+    background-color: #D4C140;
+    color: #fff;
+    
+}
+button{
+    padding: 0 1em 0 1em;
+}
+
+.bs-panel .panel-heading .panel-title, .content-box-header {
+float: none;
+padding: 10px 15px;
+padding-top: 0px;
+}
+.panel-heading{
+    padding-top: 10px;
+}
+.question{padding:10px; border: 1px solid aliceblue;}
+input#SurveyPaste {
+  border: 2px gray dashed;
+  padding: 30px;
+  width: 600px;
+}
+
+
+/****************siderbar****************/
+.sidebar-nav-fixed {
+    top: 0px;
+    margin-left: -20px;
+    color: #fff;
+    width:25%;
+    height: 100%;
+    background: rgb(24, 33, 61);
+
+}
+.sidebar-nav-fixed .card{
+    margin: 0px;
+    background-color:transparent;
+    border: 0px;
+}
+.sidebar-nav-fixed .card.hovercard{
+    width: 100%;
+    background-color:transparent;
+}
+.sidebar-nav-fixed .card.hovercard img{
+    width: 100%;
+    height: 100%;
+}
+.sidebar-nav-fixed .card.hovercard .avatar img {
+    border: 3px solid;
+
+}
+.sidebar-nav-fixed .card.hovercard .info .title{
+    color: #f1f1f1;
+}
+.sidebar-nav-fixed .card.hovercard .info .desc{
+    color: #f1f1f1;
+}
+.avatar.img-circle{
+    max-height: 80px
+}
+
+/********post***********/
+.post .card{
+    border: 0px;
+    border-radius: 0px;
+}
+.post .card .card-heading.image .card-heading-header span{
+    font-size: 15px;
+}
+.post .card .card-heading.image img{
+
+    width: 80px;
+    height: 80px;
+}
+.post .card.people .card-top{
+    background-color: #FADC03;
+}
+.card .card-heading.image .card-heading-header {
+vertical-align: top;
+background-color: rgba(229, 228, 228, 0.33);
+border-radius:10px;
+    padding:10px;
+}
+.card .card-body {
+padding: 0 20px;
+background-color: rgba(229, 228, 228, 0.33);
+font-size: 16px;
+color: #333;
+border-bottom: rgba(207, 182, 16, 0.79) solid 1px;
+}
+.card-body a{
+    font-weight: none;
+    text-decoration: underline;
+}
+.card-body table{
+    width:95%;
+}
+
+.card .card-comments {
+padding: 20px;
+margin: 0;
+background-color: #f8f8f8;
+}
+.card {
+background-color: rgba(229, 228, 228, 0.03);
+}
+.card h1 {
+color: rgba(207, 182, 16, 0.79) ;
+border-bottom: rgba(226, 225, 216, 1) dashed 1px;
+}
+.intervention .card {
+background-color: rgba(229, 229, 228, 0.65);//rgba(229, 228, 228, 0.03);
+}
+.intervention .card h1 {
+color: rgba(134, 126, 69, 1);
+border-bottom: rgba(226, 225, 216, 1) dashed 1px;
+}
+.intervention .card .card-heading.image .card-heading-header {
+vertical-align: top;
+background-color: rgba(229, 228, 228, 0.33);
+border-radius:10px;
+    padding:10px;
+}
+/* Clean up the lists styles */
+ul.accordion {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+/* Hide the radio buttons */
+/* These are what allow us to toggle content panes */
+ul.accordion label + input[type='radio'] {
+    display: none;
+}
+
+/* Give each content pane some styles */
+ul.accordion div.sub {
+    background-color: #CCCCCC;
+    
+}
+
+/* Make the main tab look more clickable */
+ul.accordion label {
+    background-color: #666666;
+    color: #FFFFFF;
+    display: block;
+    padding: 10px;
+}
+
+ul.accordion label:hover {
+    cursor: pointer;
+}
+
+/* Set up the div that will show and hide */
+ul.accordion div.content {
+    overflow: hidden;
+    padding: 10px;
+    display: none;
+}
+
+/* Show the content boxes when the radio buttons are checked */
+ul.accordion label + input[type='radio']:checked + div.content {
+    display: block;
+}
+.accordion label:after {
+    font-family: 'Glyphicons Halflings';
+    content: "\e114";    
+    float: right; 
+    color: grey; 
+}
+.accordion label.collapsed:after {
+    content: "\e080";
+}
+.design{
+    float:right;
+   
+    padding: 10px;
+}
+
+
+@media (max-width: 979px){
+.row {
+        top: 35px !important;
+    }
+.design{
+    float:right;
+    padding: 10px;
+}
+}
+        /* Landscape phones and portrait tablets */
+@media (max-width:  992px) {
+    #myScrollspy{
+        display:none;
+    }
+    .menu{
+         display:none;
+    }
+}
+/* Large desktops and laptops */
+@media (min-width: 1200px) {
+
+}
+
+/* Portrait tablets and medium desktops */
+@media (min-width: 992px) and (max-width: 1199px) {
+
+}
+
+/* Portrait tablets and small desktops */
+@media (min-width: 768px) and (max-width: 991px) {
+
+}
+
+/* Landscape phones and portrait tablets */
+@media (max-width: 767px) {
+
+}
+
+/* Landscape phones and smaller */
+@media (max-width: 480px) {
+
+}
+
+
+
