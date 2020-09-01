@@ -57,7 +57,7 @@ foreach ($rows as $row) {
     $site = $row['site'];
     $status = $row['status'];
    if ($lat=='' or $lng==''){
-    $req = file_get_contents("http://maps.google.com/maps/api/geocode/json?key=AIzaSyDEAh2dym0RJDX-EMbxiX5CMS2D4s0BDuw&address=$address&sensor=false&region=$region");
+    $req = file_get_contents("http://maps.google.com/maps/api/geocode/json?key=YourGoogleKeyHere&address=$address&sensor=false&region=$region");
     $json = json_decode($req, true);
     $res= $json['results'];
    
